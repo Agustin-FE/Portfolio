@@ -9,7 +9,7 @@ const About = () => {
       <div className="about-desc">
         <h3> Hola mi nombre es Agustín, soy Desarrollador Full Stack y Desarrollador de Juegos</h3>
         <p >
-          Me inicié en el mundo del desarrollo de videojuegos cuando inicie la carrera de "Programador y Diseñador de Videojuegos" en la universidad "Da vinci" de Argentina.
+          Me inicié en el mundo del desarrollo de videojuegos cuando comencé la carrera de "Programador y Diseñador de Videojuegos" en la universidad "Da vinci" de Argentina.
           Me desarrollé como Full Stack developer en el coding bootcamp de plataforma 5, que es una institución que forma a Full Stack Jr.
         </p>
         <br />
