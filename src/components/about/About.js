@@ -1,7 +1,8 @@
 import React from "react";
 import imagen from "../../media/Foto.png"
 import "./About.css";
-import resume from "../about/Fernandez_Agustin_Eligio_CV.pdf"
+import cv from "../about/Fernandez_Agustin_Eligio_CV.pdf"
+import resume from "../about/Fernandez_Agustin_Eligio_Resume.pdf"
 
 const About = () => {
   return (
@@ -15,7 +16,7 @@ const About = () => {
         <br />
         <p >
           Tuve la oportunidad de crear 3 proyectos como Full Stack Developer, una página de película (TMBD), un E-commerce y una aplicación para móviles,
-          También tengo otro 3 proyectos gracias a mi facultad, un juego en 2d (space shotter), un juego 3d parecido al resident evil y un último juego de tanques para celulares.
+          También tengo otros 3 proyectos gracias a mi facultad, un juego en 2d (space shotter), un juego 3d parecido al resident evil y un último juego de tanques para celulares.
           ¡Muy pronto están deployados en la web para que puedan ver las páginas web y jugar los juegos!
         </p>
         <br />
@@ -25,7 +26,12 @@ const About = () => {
         </p>
         <button>
           <div>
-            <a href={resume} download> Descargar cv </a>
+            <a href={cv} download> Descargar cv </a>
+          </div>
+        </button>
+        <button>
+          <div>
+            <a href={resume} download> Download Resume </a>
           </div>
         </button>
       </div>

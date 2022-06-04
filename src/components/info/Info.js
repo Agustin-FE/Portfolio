@@ -33,7 +33,7 @@ const Info = () => {
         <p>
           <b>Hola, ¿como están?</b>
           <br/>
-          No duden en dejarme un mensaje por si querés charlar sobre algún proyecto que quieres que produzca. También si quieres darme una oportunidad o recomendarme algún puesto de trabajo
+          No duden en dejarme un mensaje por si quieren conversar sobre algún proyecto que quieran que produzca. También estoy dispuesto a sus recomendaciones en algún puesto de trabajo o posición en la que les interese que participe. Gracias!
         </p>
           <div className="c-info-item">
             <a>
