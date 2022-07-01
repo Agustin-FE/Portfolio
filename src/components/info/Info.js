@@ -28,7 +28,7 @@ const Info = () => {
   return (
     <div className="info-container">
       <div className="info">
-        <h1 className="title">¡Discutamos tus proyectos!</h1>
+        <h1 className="title">¡Hablemos de tus proyectos!</h1>
         <div className="redes">
         <p>
           <b>Hola, ¿como están?</b>
