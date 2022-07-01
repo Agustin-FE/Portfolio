@@ -46,19 +46,19 @@ const Info = () => {
         <Form ref={formRef} onSubmit={handleSubmit}>
           <Form.Group className="mb-3" controlId="formGroupEmail">
             <Form.Label> Nombre </Form.Label>
-            <Form.Control type="text" placeholder="Name" name="user_name" />
+            <Form.Control type="text" placeholder="Name" name="user_name" required="true" />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formGroupPassword">
             <Form.Label> Tema </Form.Label>
-            <Form.Control type="text" placeholder="Subject" name="user_subject" />
+            <Form.Control type="text" placeholder="Subject" name="user_subject" required="true" />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formGroupPassword">
             <Form.Label> Email </Form.Label>
-            <Form.Control type="text" placeholder="Email" name="user_email" />
+            <Form.Control type="text" placeholder="Email" name="user_email" required="true" />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formGroupPassword">
             <Form.Label> Texto </Form.Label>
-            <Form.Control rows="5" as="textarea" placeholder="Message" name="message" />
+            <Form.Control rows="5" as="textarea" placeholder="Message" name="message" required="true" />
           </Form.Group>
           <Button variant="primary" type="submit">
             Submit
